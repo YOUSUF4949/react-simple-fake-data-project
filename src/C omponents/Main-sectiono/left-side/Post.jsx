@@ -1,8 +1,8 @@
 import { FaBookmark } from "react-icons/fa";
 
 
-export default function Post({data, handleBookMarksData}){
-    const {id, title, cover_image, author_name, author_image, posted_date, hashtags} = data;
+export default function Post({data, handleBookMarksData, handleReadingTime}){
+    const {id, title, cover_image, author_name, author_image, posted_date, hashtags, reading_time} = data;
 
     return (
         <div className="mt-8 first:mt-0 border-b pb-5">
@@ -43,7 +43,7 @@ export default function Post({data, handleBookMarksData}){
                     </div>
                     {/* Mark as read here */}
                     <div>
-                        <a href="" className="text-lg font-semibold text-[#6047EC] underline">Mark As read</a>
+                        <a className="text-lg font-semibold text-[#6047EC] underline" onClick={()=> handleReadingTime(reading_time)}>Mark As read</a>
                     </div>
                 </div>
             </div>

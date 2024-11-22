@@ -4,7 +4,7 @@ import Post from "./Post"
 
 
 
-export default function Posts({handleBookMarksData}){
+export default function Posts({handleBookMarksData, handleReadingTime}){
     const [postData, setPostData] = useState([])
     useEffect(()=>{
         fetch('fake_data.json')
@@ -17,7 +17,7 @@ export default function Posts({handleBookMarksData}){
         <div>
             <div className="p-3"> 
                 {
-                    postData.map(data => <Post key={data.id} data={data} handleBookMarksData={handleBookMarksData}></Post>)
+                    postData.map(data => <Post key={data.id} data={data} handleBookMarksData={handleBookMarksData} handleReadingTime={handleReadingTime}></Post>)
                 }
             </div>
         </div>
