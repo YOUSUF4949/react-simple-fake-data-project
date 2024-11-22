@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "title": "Exploring the Future of AI",
+      "cover_image": "https://i.ibb.co.com/n3KTw26/1.jpg",
+      "author_name": "John Doe",
+      "author_image": "https://i.ibb.co.com/f4m7Mht/boy1.png",
+      "posted_date": "Nov-19-2024",
+      "hashtags": ["#AI", "#Technology", "Admin"]
+    },
+    {
+      "id": 2,
+      "title": "Top 10 Travel Destinations",
+      "cover_image": "https://i.ibb.co.com/dLxvRzn/2.png",
+      "author_name": "Jane Smith",
+      "author_image": "https://i.ibb.co.com/ZYqgwwM/boy2.jpg",
+      "posted_date": "Oct-25-2024",
+      "hashtags": ["#Travel", "#Adventure"]
+    },
+    {
+      "id": 3,
+      "title": "Healthy How to get your first job as a self-taught programmer Eating Tips",
+      "cover_image": "https://i.ibb.co.com/xYVG9d1/4.jpg",
+      "author_name": "Mike Brown",
+      "author_image": "https://i.ibb.co.com/S0jyR4M/girl1.jpg",
+      "posted_date": "Sep-15-2024",
+      "hashtags": ["#Health", "#Wellness", "Admin"]
+    },
+    {
+      "id": 4,
+      "title": "Mastering JavaScript How to get your first job as a self-taught programmer",
+      "cover_image": "https://i.ibb.co.com/JCkJfqg/3.png",
+      "author_name": "Alice Johnson",
+      "author_image": "https://i.ibb.co.com/d4vtnhW/girl2.jpg",
+      "posted_date": "Aug-10-2024",
+      "hashtags": ["#Programming", "#JavaScript", "Admin"]
+    },
+    {
+      "id": 5,
+      "title": "How to get your first job as a self-taught programmer Photography for Beginners",
+      "cover_image": "https://i.ibb.co.com/S752fXp/programming-image.jpg",
+      "author_name": "Chris Lee",
+      "author_image": "https://i.ibb.co.com/k4B1Dm1/profile.png",
+      "posted_date": "Jul-05-2024",
+      "hashtags": ["#Photography", "#Beginners" , "Admin"]
+    }
+  ]
